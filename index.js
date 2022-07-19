@@ -23,10 +23,10 @@ let validRegObj = {
 };
 
 Object.keys(validRegObj).forEach((item) => {
-  ValidData[item] = validRegObj[item];
+  ValidForm[item] = validRegObj[item];
 });
 
-function ValidData(desObj, valObj) {
+function ValidForm(desObj, valObj) {
   let keys = Object.keys(valObj);
   let objErr = {};
   let passType = "success";
@@ -133,5 +133,5 @@ function ValidData(desObj, valObj) {
   return resultInfo;
 }
 
-module.exports = ValidData;
+module.exports = ValidForm;
 

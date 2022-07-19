@@ -1,14 +1,14 @@
 {
   "name": "@qdk/validform",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/benpaobenpao/validdata",
+  "homepage": "https://github.com/benpaobenpao/validform",
   "bugs": {
-    "url": "https://github.com/benpaobenpao/validdata/issues"
+    "url": "https://github.com/benpaobenpao/validform/issues"
   },
   "author": "qianduanka",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "@qdk/type": "^1.0.9"
   },
   "keywords": [
+    "validform",
     "ValidData",
     "validator",
     "validate",

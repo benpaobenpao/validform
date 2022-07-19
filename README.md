@@ -5,7 +5,7 @@
 ## 描述信息
 desObj指数据描述内容信息。
 valObj指数据值信息。
-> ValidData(desObj, valObj);
+> ValidForm(desObj, valObj);
 
 
 ### desObj 结构
@@ -37,7 +37,8 @@ valObj指数据值信息。
 
 ## 安装
 ```
-const ValidData = require("@qdk/valid-data");
+npm i @qdk/validform
+const ValidForm = require("@qdk/validform");
 ```
 
 
@@ -75,7 +76,7 @@ let descriptors = {
   },
   email: {
     rules: [{
-      rule: ValidData.email,
+      rule: ValidForm.email,
       msg: '请输入正确邮箱'
     }]
   }
@@ -87,7 +88,7 @@ let valObjs1 = {
   email: 'qianduanka@qdk'
 }
 
-ValidData(descriptors, valObjs1);
+ValidForm(descriptors, valObjs1);
 
 
 let valObjs2 = {
@@ -96,7 +97,7 @@ let valObjs2 = {
   email: 'qianduanka@qdk.com'
 }
 
-ValidData(descriptors, valObjs2);
+ValidForm(descriptors, valObjs2);
 
 let valObjs3 = {
   name: '张三',
@@ -104,7 +105,7 @@ let valObjs3 = {
   email: 'qianduanka@qdk.com'
 }
 
-ValidData(descriptors, valObjs3);
+ValidForm(descriptors, valObjs3);
 ```
 
 
