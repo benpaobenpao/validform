@@ -1,0 +1,43 @@
+{
+  "name": "@qdk/validform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/benpaobenpao/validdata",
+  "bugs": {
+    "url": "https://github.com/benpaobenpao/validdata/issues"
+  },
+  "author": "qianduanka",
+  "license": "ISC",
+  "dependencies": {
+    "@qdk/type": "^1.0.9"
+  },
+  "keywords": [
+    "ValidData",
+    "validator",
+    "validate",
+    "async",
+    "valid",
+    "data",
+    "rules",
+    "rule",
+    "form",
+    "email",
+    "phoneNumber",
+    "date",
+    "cardNumber",
+    "domain",
+    "portNumber",
+    "url",
+    "version",
+    "colorHex",
+    "emoji",
+    "uuid",
+    "ssn",
+    "ip4",
+    "ip6"
+  ]
+}
